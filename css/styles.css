@@ -1,0 +1,17 @@
+body {
+    background-color: #F6F6F6;
+}
+
+hr {
+    width: 5%;
+    border-style: none;
+    border-top: 6px dotted slategrey;
+}
+
+h1 {
+    color: #035397;
+}
+
+h3 {
+    color: royalblue;
+}

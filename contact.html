@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Level 1 heading for main text. -->
+    <h1>Contact Information</h1>
+
+    <!-- Currently used to structure tags without CSS3. -->
+    <table cellspacing="25px">
+        <tr>
+            <td>Number:</td>
+            <td>+92 3171008168</td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td>Phase V, DHA, Karachi</td>
+        </tr>
+
+        <tr>
+            <td>Email ID:</td>
+            <td>zaidi.aliraza01@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Creates a horizontal line b/w top & bottom tags. -->
+    <hr>
+
+    <!-- Level two heading for secondary main text. -->
+    <h2>User's Response</h2>
+
+    <!-- User's response will be recorded. -->
+    <form action="mailto:zaidi.aliraza01@gmail.com" method="post" enctype="text/plain">
+        <!-- User Name will be saved. -->
+        <label for="enterName">Enter Name:</label>
+        <input type="text" name="enterName">
+
+        <!-- This creates space -->
+        <br><br>
+
+        <!-- User Email will be saved. -->
+        <label for="enterEmail">Enter Email:</label>
+        <input type="email" name="enterEmail">
+
+         <!-- This creates space -->
+        <br><br>
+
+        <!-- User Message will be stored -->
+        <label for="yourMessage">What is your message?</label> <br>
+        <textarea name="yourMessage" cols="32" rows="10" placeholder="Enter your response!"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit" >
+    </form>
+</body>
+</html>
